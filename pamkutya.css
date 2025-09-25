@@ -1,0 +1,72 @@
+body{
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightblue;
+    background-position: 70% 400px;
+}
+
+header{
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Times New Roman', serif;
+    letter-spacing: 25px;
+    text-shadow: 10px 10px 5px black;
+}
+
+nav{
+    background-color: darkslategray;
+    padding: 5px;
+}
+nav a:link, a:visited{
+    background-color: black;
+    color: blue;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+article{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+    width: 80%;
+}
+
+aside{
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+
+section::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+div.kep{
+    float: left;
+    width: 30%;
+    height: 50%;
+}
+
+#ak{
+    background-color: darkslategray;
+    color: lavender;
+    margin-left: 10px;
+}
+div.kep img{
+    width: 100%;
+}
+div.kep2{
+    float: right;
+    width: 50%;
+    height: 20%;
+}
